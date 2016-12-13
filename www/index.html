@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: http://griffis.edumedia.ca 'unsafe-eval';connect-src http://griffis.edumedia.ca;">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Cordova Template</title>
+</head>
+
+<body>
+    <div >
+        <a id="buttonRefresh" >RefrEsh</a>
+    </div>
+    <!--   Home page-->
+    <div id="gametimetable" class="page active" data-role="page">
+        <header>
+            <h1>BASKETBALL SCORE BROAD</h1> </header>
+        <ul class="timetable_list">
+            <!--        make dynamic timetable lists in JS file-->
+        </ul>
+    </div>
+    <!--    Team Standing page-->
+    <div id="standings" class="page" data-role="page">
+        <header>
+            <h1>standings</h1> </header>
+        <!--        make a Table-->
+        <table id="teamStandings">
+            <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>T</th>
+                    <th>P</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- load the standings here after calculating them -->
+            </tbody>
+        </table>
+    </div>
+    <section data-role="nav" id="nav">
+        <ul class="tabs">
+            <li><a id="nav_gametimetable" href="#gametimetable">Timetable</a></li>
+            <li><a id="nav_standings" href="#standings">standings</a></li>
+        </ul>
+    </section>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

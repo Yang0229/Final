@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.yang0229.Final" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BSB</name>
+    <description>
+        MAD 9014 Final Tinker
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Tinker
+    </author>
+    <content src="index.html" />
+    <preference name="SplashScreen" value="screen"/> 
+    <preference name="SplashScreenDelay" value="3000"/>
+    
+    
+    
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        
+        
+<!--        SplashScreen and icons-->
+    <splash src="res/screens/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+    <splash src="res/screens/android/screen-ldpi-landscape.png" density="land-ldpi"/>
+    <splash src="res/screens/android/screen-mdpi-landscape.png" density="land-mdpi"/>
+    <splash src="res/screens/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
+
+    <splash src="res/screens/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+    <splash src="res/screens/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+    <splash src="res/screens/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+    <splash src="res/screens/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>  
+    
+        
+    <icon src="res/icons/android/icon-36-ldpi.png" density="ldpi" />
+    <icon src="res/icons/android/icon-48-mdpi.png" density="mdpi" />
+    <icon src="res/icons/android/icon-72-hdpi.png" density="hdpi" />
+    <icon src="res/icons/android/icon-96-xhdpi.png" density="xhdpi" />
+    <icon src="res/icons/android/icon-144-xxhdpi.png" density="xxhdpi" />
+    <icon src="res/icons/android/icon-192-xxxhdpi.png" density="xxxhdpi" />
+        
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

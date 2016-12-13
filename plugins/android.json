@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ca.edumedia.gao00078.Final"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "ca.edumedia.gao00078.Final"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "ca.edumedia.gao00078.Final"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "ca.edumedia.gao00078.Final"
+        }
+    },
+    "dependent_plugins": {}
+}
