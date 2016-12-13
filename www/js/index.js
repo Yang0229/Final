@@ -33,7 +33,7 @@ function navigate(ev) {
     }
 }
 let serverData = {
-    url: "basketball.php"
+    url: "../basketball.php"
     , httpRequest: "GET"
     , getJSON: function () {
         
