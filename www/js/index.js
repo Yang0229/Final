@@ -33,7 +33,7 @@ function navigate(ev) {
     }
 }
 let serverData = {
-    url: "https://griffis.edumedia.ca/mad9014/sports/basketball.php"
+    url: "basketball.php"
     , httpRequest: "GET"
     , getJSON: function () {
         
